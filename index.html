@@ -1,39 +1,51 @@
-<!-- Navbar -->
-<nav class="w-full bg-white shadow-lg">
-  <div class="flex items-center justify-between px-8 py-5">
-    <!-- Left side - Logo -->
-    <div class="flex items-center space-x-4">
-      <div
-        class="w-12 h-12 rounded-full flex items-center justify-center shadow-md"
-      >
-        <img src="./images/logo.png" alt="" />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body class="bg-gray-100 min-h-screen">
+    <!-- Navbar -->
+    <nav class="w-full bg-white shadow-lg">
+      <div class="flex items-center justify-between px-8 py-5">
+        <!-- Left side - Logo -->
+        <div class="flex items-center space-x-4">
+          <div
+            class="w-12 h-12 rounded-full flex items-center justify-center shadow-md"
+          >
+            <img src="./images/logo.png" alt="" />
+          </div>
+          <h1 class="text-xl font-bold text-gray-800">
+            Emergency <br />
+            Service
+          </h1>
+        </div>
+        <!-- Right side -->
+        <div class="flex items-center space-x-6">
+          <!-- Heart -->
+          <div class="flex items-center bg-green-50 px-4 py-2 rounded-full">
+            <span class="text-black font-semibold mr-2">0</span>
+            <i class="fas fa-heart text-red-500"></i>
+          </div>
+          <!-- Star -->
+          <div class="flex items-center bg-green-50 px-4 py-2 rounded-full">
+            <span class="text-black font-semibold mr-2">100</span>
+            <i class="fas fa-star text-yellow-500"></i>
+          </div>
+          <!-- Copy -->
+          <div
+            class="flex items-center bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-full cursor-pointer transition-colors duration-200"
+          >
+            <span class="font-semibold">2 Copy</span>
+          </div>
+        </div>
       </div>
-      <h1 class="text-xl font-bold text-gray-800">
-        Emergency <br />
-        Service
-      </h1>
-    </div>
-
-    <!-- Right side -->
-    <div class="flex items-center space-x-6">
-      <!-- Heart -->
-      <div class="flex items-center bg-green-50 px-4 py-2 rounded-full">
-        <span class="text-black font-semibold mr-2">0</span>
-        <i class="fas fa-heart text-red-500"></i>
-      </div>
-
-      <!-- Star -->
-      <div class="flex items-center bg-green-50 px-4 py-2 rounded-full">
-        <span class="text-black font-semibold mr-2">100</span>
-        <i class="fas fa-star text-yellow-500"></i>
-      </div>
-
-      <!-- Copy -->
-      <div
-        class="flex items-center bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-full cursor-pointer transition-colors duration-200"
-      >
-        <span class="font-semibold">2 Copy</span>
-      </div>
-    </div>
-  </div>
-</nav>
+    </nav>
+  </body>
+</html>
